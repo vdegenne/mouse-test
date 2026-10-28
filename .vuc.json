@@ -1,0 +1,7 @@
+{
+	"openStrategy": "tmux-vim",
+	"tmuxOptions": {
+		"session": ":"
+	},
+	"postExec": "wlrctl window focus kitty"
+}
