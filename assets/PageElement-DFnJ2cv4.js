@@ -1,0 +1,1 @@
+import{O as e,g as t,p as n,w as r}from"./store-dv-KOZuF.js";var i=class extends r{constructor(...e){super(...e),this.active=!1}static{this.styles=e`:host{flex-direction:column;flex:1;min-height:0;display:flex}:host(:not([active])){display:none}`}shouldUpdate(e){return this.active}};t([n({type:Boolean,reflect:!0})],i.prototype,`active`,void 0);export{i as t};
