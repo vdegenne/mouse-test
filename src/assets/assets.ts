@@ -4,13 +4,13 @@ import {html} from 'lit'
 // export {default as MY_IMAGE} from './img/my-image.png?inline';
 // etc...
 
-// import successSrc from '/audio/success.mp3'
-// const AUDIO_SUCCESS = new Audio(successSrc)
-// export function playSuccessAudio(volume = 0.4) {
-// 	AUDIO_SUCCESS.volume = volume
-// 	AUDIO_SUCCESS.currentTime = 0
-// 	AUDIO_SUCCESS.play()
-// }
+import tapSrc from '/audio/tap.wav'
+const AUDIO_TAP = new Audio(tapSrc)
+export function playTapAudio(volume = 0.4) {
+	AUDIO_TAP.volume = volume
+	AUDIO_TAP.currentTime = 0
+	AUDIO_TAP.play()
+}
 // import wrongSrc from '/audio/wrong.mp3'
 // const AUDIO_WRONG = new Audio(wrongSrc)
 // export function playWrongAudio(volume = 0.4) {

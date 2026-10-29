@@ -2,6 +2,7 @@ import {withController} from '@snar/lit'
 import {css, html} from 'lit'
 import {withStyles} from 'lit-with-styles'
 import {customElement, state} from 'lit/decorators.js'
+import {playTapAudio} from '../assets/assets.js'
 import {stateless} from '../stateless.js'
 import {store} from '../store.js'
 import {PageElement} from './PageElement.js'
@@ -229,6 +230,7 @@ export class PageMain extends PageElement {
 	}
 
 	private flash() {
+		playTapAudio()
 		this.classList.add('flash')
 
 		if (this.flashTimer) clearTimeout(this.flashTimer)
